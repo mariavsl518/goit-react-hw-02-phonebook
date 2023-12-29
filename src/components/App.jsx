@@ -62,9 +62,12 @@ export class App extends Component {
         <h1>Phonebook</h1>
         <ContactForm 
         addProfile={this.addProfile} />
+
         <h2>Contacts</h2>
+        
         <Filter 
         handleFilterSearch={this.handleFilterSearch}/>
+
         <ContactList 
         contacts={filterParam}
         deleteContact={this.deleteContact}
